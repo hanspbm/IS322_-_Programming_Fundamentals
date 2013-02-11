@@ -1,11 +1,15 @@
-function addTwoNumbers(a, b) {
-	var result = a + b;
-	return result;
+var amount = 0;
+
+// create the index
+var i = 1;
+
+// check condition
+while ( i <= 10) {
+	// amount = amount + 100;
+	amount += 100;
+	
+	// increment index
+	i++;
 }
 
-var x = addTwoNumbers(5, 10);
-alert(x);
-addTwoNumbers(500, 100);
-addTwoNumbers(7, -2323);
-
-var name = prompt("What is your name?");
+alert("The value is: " + amount);
