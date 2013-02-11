@@ -1,9 +1,11 @@
-function myFunction() {
-	var a = 5;
-	var b = 10;
-	var c = 20;
-	var d = a + b + c;
-	alert("The value of d is: " + d );
+function addTwoNumbers(a, b) {
+	var result = a + b;
+	return result;
 }
 
-myFunction();
+var x = addTwoNumbers(5, 10);
+alert(x);
+addTwoNumbers(500, 100);
+addTwoNumbers(7, -2323);
+
+var name = prompt("What is your name?");
